@@ -1,8 +1,9 @@
 # GALA & LIPSTICK 
 
-This repository covers both GALA and LIPSTICK. LIPSTICK is built up on GALA.
+# Explainable Graph Neural Network-based Oracle-Less Attacks on Logic Locking
+This repository contains resources related to explainable GNN-based attacks on logic locking. </br>
+[Yeganeh Aghamohammadi](https://github.com/yegane-ai) & [Amin Rezaei](https://github.com/r3zaei) </br>
 
-## GALA/README.md
 
 ```markdown
 # GALA: GNN-based Oracle-Less Logic Locking Attack
@@ -67,9 +68,6 @@ GALA extends the GIN architecture with:
   - Power prediction
   - Area prediction
 
-# Explainable Graph Neural Network-based Oracle-Less Attacks on Logic Locking
-This repository contains resources related to explainable GNN-based attacks on logic locking. </br>
-[Yeganeh Aghamohammadi](https://github.com/yegane-ai) & [Amin Rezaei](https://github.com/r3zaei) </br>
 
 # Citation
 Conference Article 1:
