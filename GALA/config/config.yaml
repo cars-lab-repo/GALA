@@ -1,0 +1,39 @@
+
+## GALA/config/config.yaml
+
+
+# GALA Configuration
+
+data:
+  root: '../benchmarks/ISCAS85'
+  key_size: 64
+  num_wrong_keys: 10
+  resynthesis_versions: 10
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+  h_hops: 2  # For subgraph extraction
+
+model:
+  hidden_dim: 64
+  num_layers: 5
+  dropout: 0.5
+  use_er: true
+  use_power_area: true  # GALA's key feature
+
+training:
+  batch_size: 32
+  epochs: 350
+  learning_rate: 0.1
+  early_stopping_patience: 5
+  checkpoint_dir: 'checkpoints'
+  log_dir: 'runs'
+
+evaluation:
+  num_test_samples: 50
+  threshold: 0.5
+
+explainability:
+  use_pg_explainer: true
+  explainer_epochs: 30
+  save_visualizations: true
