@@ -75,7 +75,7 @@ GALA extends the GIN architecture with:
 
 ## Citation
 ```
-@INPROCEEDINGS{GALA-2026,
+@INPROCEEDINGS{GALA,
   author={Aghamohammadi, Yeganeh and Jin, Henry and Rezaei, Amin},
   title={GALA: An Explainable GNN-based Approach for Enhancing Oracle-Less Logic Locking Attacks Using Functional and Behavioral Features}, 
   booktitle={Proceedings of 31st Asia and South Pacific Design Automation Conference (ASP-DAC)}, 
