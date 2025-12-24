@@ -1,1 +1,1 @@
-Please use the ISCAS85 benchmarks.
+Please use the ISCAS-85 benchmarks.
