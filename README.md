@@ -8,7 +8,7 @@ This repository contains resources related to explainable GNN-based attacks on l
 ```markdown
 # GALA: GNN-based Oracle-Less Logic Locking Attack
 
-GALA (GNN-based Approach for enhancing oracle-less Logic locking Attacks) is an enhanced version of LIPSTICK that incorporates **behavioral features** (power consumption and area overhead) in addition to functional features.
+GALA [Conf1] (GNN-based Approach for enhancing oracle-less Logic locking Attacks) is an enhanced version of LIPSTICK [Conf2] that incorporates **behavioral features** (power consumption and area overhead) in addition to functional features.
 
 ## Key Improvements over LIPSTICK
 
@@ -68,22 +68,18 @@ GALA extends the GIN architecture with:
   - Power prediction
   - Area prediction
 
+## Files
+
+- `models/gala_model.py`: Graph-level GALA model
+- `models/gala_subgraph.py`: Subgraph-level GALA model
+- `utils/power_area_extractor.py`: Power/area feature extraction
+- `scripts/extract_features.py`: Feature extraction script
+- `train.py`: Training script
+- `test.py`: Testing script
+```
 
 # Citation
-Conference Article 1:
-```
-@INPROCEEDINGS{LIPSTICK-2024,
-  author={Aghamohammadi, Yeganeh and Rezaei, Amin},
-  title={LIPSTICK: Corruptibility-Aware and Explainable Graph Neural Network-based Oracle-Less Attack on Logic Locking}, 
-  booktitle={Proceedings of 29th Asia and South Pacific Design Automation Conference (ASP-DAC)}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={606-611},
-  doi={10.1109/ASP-DAC58780.2024.10473982}
-}
-```
-Conference Article 2:
+[Conf1:]
 ```
 @INPROCEEDINGS{GALA-2026,
   author={Aghamohammadi, Yeganeh and Jin, Henry and Rezaei, Amin},
@@ -96,15 +92,18 @@ Conference Article 2:
   doi={}
 }
 ```
-
-
-## Files
-
-- `models/gala_model.py`: Graph-level GALA model
-- `models/gala_subgraph.py`: Subgraph-level GALA model
-- `utils/power_area_extractor.py`: Power/area feature extraction
-- `scripts/extract_features.py`: Feature extraction script
-- `train.py`: Training script
-- `test.py`: Testing script
+[Conf2:]
 ```
+@INPROCEEDINGS{LIPSTICK-2024,
+  author={Aghamohammadi, Yeganeh and Rezaei, Amin},
+  title={LIPSTICK: Corruptibility-Aware and Explainable Graph Neural Network-based Oracle-Less Attack on Logic Locking}, 
+  booktitle={Proceedings of 29th Asia and South Pacific Design Automation Conference (ASP-DAC)}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={606-611},
+  doi={10.1109/ASP-DAC58780.2024.10473982}
+}
+```
+
 
