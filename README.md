@@ -78,7 +78,7 @@ GALA extends the GIN architecture with:
 - `test.py`: Testing script
 ```
 
-# Citation
+## Citation
 [Conf1:]
 ```
 @INPROCEEDINGS{GALA-2026,
