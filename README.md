@@ -4,7 +4,7 @@ This repository contains resources related to explainable GNN-based attacks on l
 
 
 ## Summary
-GALA (<u>G</u>NN-based <u>A</u>pproach for enhancing oracle-less <u>L</u>ogic locking <u>A</u>ttacks) is an enhanced version of LIPSTICK that incorporates **behavioral features** (power consumption and area overhead) in addition to functional features.
+GALA (**G**NN-based **A**pproach for enhancing oracle-less **L**ogic locking **A**ttacks) is an enhanced version of LIPSTICK that incorporates **behavioral features** (power consumption and area overhead) in addition to functional features.
 
 ### Key Improvements over LIPSTICK
 
