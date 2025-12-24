@@ -10,7 +10,7 @@ GALA (**G**NN-based **A**pproach for enhancing oracle-less **L**ogic locking **A
 
 1. **Behavioral Features**: Integrates gate-level power (static + dynamic) and area metrics
 2. **Dual Attack Modes**: 
-   - Subgraph-level attack (enhanced OMLA)
+   - Subgraph-level attack (enhanced [OMLA](https://github.com/DfX-NYUAD/OMLA))
    - Graph-level attack (enhanced LIPSTICK)
 3. **Higher Accuracy**: 14-17% KPR improvement over LIPSTICK
 4. **Better Explainability**: Reveals how power/area patterns influence key recovery
