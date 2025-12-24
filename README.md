@@ -8,7 +8,7 @@ This repository contains resources related to explainable GNN-based attacks on l
 ```markdown
 # GALA: GNN-based Oracle-Less Logic Locking Attack
 
-GALA [Conf1] (GNN-based Approach for enhancing oracle-less Logic locking Attacks) is an enhanced version of LIPSTICK [Conf2] that incorporates **behavioral features** (power consumption and area overhead) in addition to functional features.
+GALA (GNN-based Approach for enhancing oracle-less Logic locking Attacks) is an enhanced version of LIPSTICK that incorporates **behavioral features** (power consumption and area overhead) in addition to functional features.
 
 ## Key Improvements over LIPSTICK
 
@@ -76,7 +76,6 @@ GALA extends the GIN architecture with:
 - `scripts/extract_features.py`: Feature extraction script
 - `train.py`: Training script
 - `test.py`: Testing script
-```
 
 ## Citation
 ```
