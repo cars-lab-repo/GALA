@@ -1,16 +1,12 @@
-# GALA & LIPSTICK 
-
 # Explainable Graph Neural Network-based Oracle-Less Attacks on Logic Locking
 This repository contains resources related to explainable GNN-based attacks on logic locking. </br>
 [Yeganeh Aghamohammadi](https://github.com/yegane-ai) & [Amin Rezaei](https://github.com/r3zaei) </br>
 
 
-```markdown
-# GALA: GNN-based Oracle-Less Logic Locking Attack
-
+## GALA: GNN-based Oracle-Less Logic Locking Attack
 GALA (GNN-based Approach for enhancing oracle-less Logic locking Attacks) is an enhanced version of LIPSTICK that incorporates **behavioral features** (power consumption and area overhead) in addition to functional features.
 
-## Key Improvements over LIPSTICK
+### Key Improvements over LIPSTICK
 
 1. **Behavioral Features**: Integrates gate-level power (static + dynamic) and area metrics
 2. **Dual Attack Modes**: 
