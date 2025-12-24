@@ -79,7 +79,6 @@ GALA extends the GIN architecture with:
 ```
 
 ## Citation
-[Conf1:]
 ```
 @INPROCEEDINGS{GALA-2026,
   author={Aghamohammadi, Yeganeh and Jin, Henry and Rezaei, Amin},
@@ -92,7 +91,6 @@ GALA extends the GIN architecture with:
   doi={}
 }
 ```
-[Conf2:]
 ```
 @INPROCEEDINGS{LIPSTICK-2024,
   author={Aghamohammadi, Yeganeh and Rezaei, Amin},
