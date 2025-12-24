@@ -1,5 +1,5 @@
-# Explainable Graph Neural Network-based Oracle-Less Attacks on Logic Locking
-This repository contains resources related to explainable GNN-based attacks on logic locking. </br>
+# Explainable Graph Neural Network-based Oracle-Less Attack on Logic Locking
+This repository contains resources related to explainable GNN-based attack on logic locking. </br>
 [Yeganeh Aghamohammadi](https://github.com/yegane-ai) & [Amin Rezaei](https://github.com/r3zaei) </br>
 
 
